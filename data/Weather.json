@@ -90,7 +90,7 @@
   "BloodRain": {
     "DefName": "BloodRain",
     "Label": "blood rain",
-    "Description": "Anyone exposed to the blood rain for long enough will be driven into a berserk rage. Certain traits and psychic sensitivity influence the berserk effect.\n\n<i><color=#66E0E4FF>Anomaly</color></i>",
+    "Description": "Anyone exposed to the blood rain for long enough will be driven into a berserk rage. Certain traits and psychic sensitivity influence the berserk effect.\n<i><color=#66E0E4FF>Anomaly</color></i>",
     "BaseCost": 600,
     "KarmaType": "Doom",
     "EventCap": 3,
@@ -98,10 +98,21 @@
     "ModSource": "Anomaly",
     "Version": 1
   },
+  "Windy": {
+    "DefName": "Windy",
+    "Label": "windy",
+    "Description": "Strong winds reduce movement speed.\n<i><color=#66E0E4FF>Odyssey</color></i>",
+    "BaseCost": 175,
+    "KarmaType": "Neutral",
+    "EventCap": 3,
+    "Enabled": true,
+    "ModSource": "Odyssey",
+    "Version": 1
+  },
   "ToxRain": {
     "DefName": "ToxRain",
     "Label": "tox rain",
-    "Description": "Tox rain makes creatures sick with toxic buildup. It also reduces the accuracy of ranged weapons, extinguishes fire, and slows people down.\n\n<i><color=#66E0E4FF>Odyssey</color></i>",
+    "Description": "Tox rain makes creatures sick with toxic buildup. It also reduces the accuracy of ranged weapons, extinguishes fire, and slows people down.\n<i><color=#66E0E4FF>Odyssey</color></i>",
     "BaseCost": 600,
     "KarmaType": "Doom",
     "EventCap": 3,
@@ -112,7 +123,7 @@
   "Sandstorm": {
     "DefName": "Sandstorm",
     "Label": "sandstorm",
-    "Description": "Sandstorms reduce the accuracy of ranged weapons, slow people down, and get sand everywhere.\n\n<i><color=#66E0E4FF>Odyssey</color></i>",
+    "Description": "Sandstorms reduce the accuracy of ranged weapons, slow people down, and get sand everywhere.\n<i><color=#66E0E4FF>Odyssey</color></i>",
     "BaseCost": 300,
     "KarmaType": "Bad",
     "EventCap": 3,
@@ -123,7 +134,7 @@
   "BlindFog": {
     "DefName": "BlindFog",
     "Label": "blind fog",
-    "Description": "A heavy fog that reduces the accuracy of ranged weapons, as well as their maximum range.\n\n<i><color=#66E0E4FF>Odyssey</color></i>",
+    "Description": "A heavy fog that reduces the accuracy of ranged weapons, as well as their maximum range.\n<i><color=#66E0E4FF>Odyssey</color></i>",
     "BaseCost": 150,
     "KarmaType": "Neutral",
     "EventCap": 3,
@@ -134,7 +145,7 @@
   "Overcast": {
     "DefName": "Overcast",
     "Label": "overcast",
-    "Description": "Thick clouds obscure the sky, reducing light levels.\n\n<i><color=#66E0E4FF>Odyssey</color></i>",
+    "Description": "Thick clouds obscure the sky, reducing light levels.\n<i><color=#66E0E4FF>Odyssey</color></i>",
     "BaseCost": 175,
     "KarmaType": "Neutral",
     "EventCap": 3,
@@ -145,7 +156,7 @@
   "Blizzard": {
     "DefName": "Blizzard",
     "Label": "blizzard",
-    "Description": "Snow reduces the accuracy of ranged weapons, extinguishes fire, and slows people down.\n\n<i><color=#66E0E4FF>Odyssey</color></i>",
+    "Description": "Snow reduces the accuracy of ranged weapons, extinguishes fire, and slows people down.\n<i><color=#66E0E4FF>Odyssey</color></i>",
     "BaseCost": 300,
     "KarmaType": "Bad",
     "EventCap": 3,
@@ -156,7 +167,7 @@
   "TorrentialRain": {
     "DefName": "TorrentialRain",
     "Label": "torrential rain",
-    "Description": "Torrential rain causes flooding. It also reduces the accuracy of ranged weapons, extinguishes fire, and slows people down.\n\n<i><color=#66E0E4FF>Odyssey</color></i>",
+    "Description": "Torrential rain causes flooding. It also reduces the accuracy of ranged weapons, extinguishes fire, and slows people down.\n<i><color=#66E0E4FF>Odyssey</color></i>",
     "BaseCost": 300,
     "KarmaType": "Bad",
     "EventCap": 3,
@@ -164,26 +175,48 @@
     "ModSource": "Odyssey",
     "Version": 1
   },
-  "Windy": {
-    "DefName": "Windy",
-    "Label": "windy",
-    "Description": "A clear, windy day, great for turbines, not so great for shooting.\n\n<i><color=#66E0E4FF>Seasonal Weather (Continued)</color></i>",
-    "BaseCost": 175,
-    "KarmaType": "Neutral",
+  "VPE_Hurricane": {
+    "DefName": "VPE_Hurricane",
+    "Label": "hurricane",
+    "Description": "Extreme wind will cause a slowdown to everyone not under the roof.\n<i><color=#66E0E4FF>Vanilla Psycasts Expanded</color></i>",
+    "BaseCost": 300,
+    "KarmaType": "Bad",
     "EventCap": 3,
     "Enabled": true,
-    "ModSource": "Seasonal Weather (Continued)",
+    "ModSource": "Vanilla Psycasts Expanded",
+    "Version": 1
+  },
+  "VPEH_Bloodstorm": {
+    "DefName": "VPEH_Bloodstorm",
+    "Label": "bloodstorm",
+    "Description": "Mystical downpour of blood, caused by forbidden hemosage psycast. While non-hemogenic individuals are choking on blood, sanguophages regenerate hemogen and can cast psycasts without worrying about psychic heat.\n<i><color=#66E0E4FF>Vanilla Psycasts Expanded - Hemosage</color></i>",
+    "BaseCost": 600,
+    "KarmaType": "Doom",
+    "EventCap": 3,
+    "Enabled": true,
+    "ModSource": "Vanilla Psycasts Expanded - Hemosage",
     "Version": 1
   },
   "SnowyThunderStorm": {
     "DefName": "SnowyThunderStorm",
     "Label": "thundersnow",
-    "Description": "A rare winter phenomenon where heavy snow falls with lightning and thunder. The snow reduces visibility and movement while lightning poses fire risks.\n\n<i><color=#66E0E4FF>(CAP) Thunder Snow</color></i>",
+    "Description": "A rare winter phenomenon where heavy snow falls with lightning and thunder. The snow reduces visibility and movement while lightning poses fire risks.\n<i><color=#66E0E4FF>(CAP) Thunder Snow</color></i>",
     "BaseCost": 300,
     "KarmaType": "Bad",
     "EventCap": 3,
     "Enabled": true,
     "ModSource": "[CAP] Thunder Snow",
+    "Version": 1
+  },
+  "VCE_FestiveSnow": {
+    "DefName": "VCE_FestiveSnow",
+    "Label": "festive snow",
+    "Description": "Festive snow lifts the spirits of everyone around. Like regular snow, it reduces the accuracy of ranged weapons, extinguishes fire, and slows people down.\n<i><color=#66E0E4FF>Vanilla Christmas Expanded</color></i>",
+    "BaseCost": 200,
+    "KarmaType": "Neutral",
+    "EventCap": 3,
+    "Enabled": true,
+    "ModSource": "Vanilla Christmas Expanded",
     "Version": 1
   }
 }

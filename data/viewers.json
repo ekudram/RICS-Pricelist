@@ -1,0 +1,116 @@
+{
+  "total": 13,
+  "viewers": [
+    {
+      "username": "lenzarng",
+      "karma": 200,
+      "coins": 999777815,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "97321737"
+      }
+    },
+    {
+      "username": "lenzarbot",
+      "karma": 100,
+      "coins": 37900,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "241802790"
+      }
+    },
+    {
+      "username": "dukehugo",
+      "karma": 143,
+      "coins": 12650,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "497498420"
+      }
+    },
+    {
+      "username": "edvinukes1",
+      "karma": 200,
+      "coins": 19286,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "1011768455"
+      }
+    },
+    {
+      "username": "twitch:97321737",
+      "karma": 100,
+      "coins": 4500,
+      "isBanned": false,
+      "platformIds": {}
+    },
+    {
+      "username": "kafvus",
+      "karma": 103,
+      "coins": 1013931,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "1306454316"
+      }
+    },
+    {
+      "username": "username:kafvus",
+      "karma": 100,
+      "coins": 4500,
+      "isBanned": false,
+      "platformIds": {}
+    },
+    {
+      "username": "leutiankane",
+      "karma": 118,
+      "coins": 14065,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "155550098"
+      }
+    },
+    {
+      "username": "twitch:1011768455",
+      "karma": 100,
+      "coins": 4700,
+      "isBanned": false,
+      "platformIds": {}
+    },
+    {
+      "username": "drxlukas",
+      "karma": 143,
+      "coins": 15795,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "40008842"
+      }
+    },
+    {
+      "username": "talamar1",
+      "karma": 100,
+      "coins": 12719,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "85901238"
+      }
+    },
+    {
+      "username": "rygger_dracora",
+      "karma": 100,
+      "coins": 9060,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "105869346"
+      }
+    },
+    {
+      "username": "leetownage420",
+      "karma": 159,
+      "coins": 7580,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "105975666"
+      }
+    }
+  ]
+}
