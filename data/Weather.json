@@ -175,28 +175,6 @@
     "ModSource": "Odyssey",
     "Version": 1
   },
-  "VPE_Hurricane": {
-    "DefName": "VPE_Hurricane",
-    "Label": "hurricane",
-    "Description": "Extreme wind will cause a slowdown to everyone not under the roof.\n<i><color=#66E0E4FF>Vanilla Psycasts Expanded</color></i>",
-    "BaseCost": 300,
-    "KarmaType": "Bad",
-    "EventCap": 3,
-    "Enabled": true,
-    "ModSource": "Vanilla Psycasts Expanded",
-    "Version": 1
-  },
-  "VPEH_Bloodstorm": {
-    "DefName": "VPEH_Bloodstorm",
-    "Label": "bloodstorm",
-    "Description": "Mystical downpour of blood, caused by forbidden hemosage psycast. While non-hemogenic individuals are choking on blood, sanguophages regenerate hemogen and can cast psycasts without worrying about psychic heat.\n<i><color=#66E0E4FF>Vanilla Psycasts Expanded - Hemosage</color></i>",
-    "BaseCost": 600,
-    "KarmaType": "Doom",
-    "EventCap": 3,
-    "Enabled": true,
-    "ModSource": "Vanilla Psycasts Expanded - Hemosage",
-    "Version": 1
-  },
   "SnowyThunderStorm": {
     "DefName": "SnowyThunderStorm",
     "Label": "thundersnow",
@@ -206,17 +184,6 @@
     "EventCap": 3,
     "Enabled": true,
     "ModSource": "[CAP] Thunder Snow",
-    "Version": 1
-  },
-  "VCE_FestiveSnow": {
-    "DefName": "VCE_FestiveSnow",
-    "Label": "festive snow",
-    "Description": "Festive snow lifts the spirits of everyone around. Like regular snow, it reduces the accuracy of ranged weapons, extinguishes fire, and slows people down.\n<i><color=#66E0E4FF>Vanilla Christmas Expanded</color></i>",
-    "BaseCost": 200,
-    "KarmaType": "Neutral",
-    "EventCap": 3,
-    "Enabled": true,
-    "ModSource": "Vanilla Christmas Expanded",
     "Version": 1
   }
 }
