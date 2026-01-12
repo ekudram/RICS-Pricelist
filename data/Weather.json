@@ -175,17 +175,6 @@
     "ModSource": "Odyssey",
     "Version": 1
   },
-  "SnowyThunderStorm": {
-    "DefName": "SnowyThunderStorm",
-    "Label": "thundersnow",
-    "Description": "A rare winter phenomenon where heavy snow falls with lightning and thunder. The snow reduces visibility and movement while lightning poses fire risks.\n<i><color=#66E0E4FF>(CAP) Thunder Snow</color></i>",
-    "BaseCost": 300,
-    "KarmaType": "Bad",
-    "EventCap": 3,
-    "Enabled": true,
-    "ModSource": "[CAP] Thunder Snow",
-    "Version": 1
-  },
   "VPE_Hurricane": {
     "DefName": "VPE_Hurricane",
     "Label": "hurricane",
@@ -206,6 +195,17 @@
     "EventCap": 3,
     "Enabled": true,
     "ModSource": "Vanilla Psycasts Expanded - Hemosage",
+    "Version": 1
+  },
+  "SnowyThunderStorm": {
+    "DefName": "SnowyThunderStorm",
+    "Label": "thundersnow",
+    "Description": "A rare winter phenomenon where heavy snow falls with lightning and thunder. The snow reduces visibility and movement while lightning poses fire risks.\n<i><color=#66E0E4FF>(CAP) Thunder Snow</color></i>",
+    "BaseCost": 300,
+    "KarmaType": "Bad",
+    "EventCap": 3,
+    "Enabled": true,
+    "ModSource": "[CAP] Thunder Snow",
     "Version": 1
   }
 }
