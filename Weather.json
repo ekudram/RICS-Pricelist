@@ -1,0 +1,189 @@
+{
+  "Clear": {
+    "DefName": "Clear",
+    "Label": "clear",
+    "Description": "A clear day. No penalties or modifiers.",
+    "BaseCost": 100,
+    "KarmaType": "Good",
+    "EventCap": 3,
+    "Enabled": true,
+    "ModSource": "Core",
+    "Version": 1
+  },
+  "Fog": {
+    "DefName": "Fog",
+    "Label": "fog",
+    "Description": "Fog reduces the accuracy of ranged weapons.",
+    "BaseCost": 150,
+    "KarmaType": "Neutral",
+    "EventCap": 3,
+    "Enabled": true,
+    "ModSource": "Core",
+    "Version": 1
+  },
+  "Rain": {
+    "DefName": "Rain",
+    "Label": "rain",
+    "Description": "Rain reduces the accuracy of ranged weapons, extinguishes fire, and slows people down.",
+    "BaseCost": 150,
+    "KarmaType": "Neutral",
+    "EventCap": 3,
+    "Enabled": true,
+    "ModSource": "Core",
+    "Version": 1
+  },
+  "DryThunderstorm": {
+    "DefName": "DryThunderstorm",
+    "Label": "dry thunderstorm",
+    "Description": "Dry thunderstorms are dangerous because the lightning can start fires and there is no rain to put them out.",
+    "BaseCost": 300,
+    "KarmaType": "Bad",
+    "EventCap": 3,
+    "Enabled": true,
+    "ModSource": "Core",
+    "Version": 1
+  },
+  "RainyThunderstorm": {
+    "DefName": "RainyThunderstorm",
+    "Label": "rainy thunderstorm",
+    "Description": "The lightning will start fires, but the rain will put it out. The rain also reduces movement speed and shooting accuracy.",
+    "BaseCost": 300,
+    "KarmaType": "Bad",
+    "EventCap": 3,
+    "Enabled": true,
+    "ModSource": "Core",
+    "Version": 1
+  },
+  "FoggyRain": {
+    "DefName": "FoggyRain",
+    "Label": "foggy rain",
+    "Description": "Reduces accuracy and movement speed.",
+    "BaseCost": 150,
+    "KarmaType": "Neutral",
+    "EventCap": 3,
+    "Enabled": true,
+    "ModSource": "Core",
+    "Version": 1
+  },
+  "SnowHard": {
+    "DefName": "SnowHard",
+    "Label": "hard snow",
+    "Description": "Snow reduces the accuracy of ranged weapons, extinguishes fire, and slows people down.",
+    "BaseCost": 200,
+    "KarmaType": "Bad",
+    "EventCap": 3,
+    "Enabled": true,
+    "ModSource": "Core",
+    "Version": 1
+  },
+  "SnowGentle": {
+    "DefName": "SnowGentle",
+    "Label": "gentle snow",
+    "Description": "Snow reduces the accuracy of ranged weapons, extinguishes fire, and slows people down.",
+    "BaseCost": 200,
+    "KarmaType": "Neutral",
+    "EventCap": 3,
+    "Enabled": true,
+    "ModSource": "Core",
+    "Version": 1
+  },
+  "BloodRain": {
+    "DefName": "BloodRain",
+    "Label": "blood rain",
+    "Description": "Anyone exposed to the blood rain for long enough will be driven into a berserk rage. Certain traits and psychic sensitivity influence the berserk effect.\n<i><color=#66E0E4FF>Anomaly</color></i>",
+    "BaseCost": 600,
+    "KarmaType": "Doom",
+    "EventCap": 3,
+    "Enabled": true,
+    "ModSource": "Anomaly",
+    "Version": 1
+  },
+  "Windy": {
+    "DefName": "Windy",
+    "Label": "windy",
+    "Description": "Strong winds reduce movement speed.\n<i><color=#66E0E4FF>Odyssey</color></i>",
+    "BaseCost": 175,
+    "KarmaType": "Neutral",
+    "EventCap": 3,
+    "Enabled": true,
+    "ModSource": "Odyssey",
+    "Version": 1
+  },
+  "ToxRain": {
+    "DefName": "ToxRain",
+    "Label": "tox rain",
+    "Description": "Tox rain makes creatures sick with toxic buildup. It also reduces the accuracy of ranged weapons, extinguishes fire, and slows people down.\n<i><color=#66E0E4FF>Odyssey</color></i>",
+    "BaseCost": 600,
+    "KarmaType": "Doom",
+    "EventCap": 3,
+    "Enabled": true,
+    "ModSource": "Odyssey",
+    "Version": 1
+  },
+  "Sandstorm": {
+    "DefName": "Sandstorm",
+    "Label": "sandstorm",
+    "Description": "Sandstorms reduce the accuracy of ranged weapons, slow people down, and get sand everywhere.\n<i><color=#66E0E4FF>Odyssey</color></i>",
+    "BaseCost": 300,
+    "KarmaType": "Bad",
+    "EventCap": 3,
+    "Enabled": true,
+    "ModSource": "Odyssey",
+    "Version": 1
+  },
+  "BlindFog": {
+    "DefName": "BlindFog",
+    "Label": "blind fog",
+    "Description": "A heavy fog that reduces the accuracy of ranged weapons, as well as their maximum range.\n<i><color=#66E0E4FF>Odyssey</color></i>",
+    "BaseCost": 150,
+    "KarmaType": "Neutral",
+    "EventCap": 3,
+    "Enabled": true,
+    "ModSource": "Odyssey",
+    "Version": 1
+  },
+  "Overcast": {
+    "DefName": "Overcast",
+    "Label": "overcast",
+    "Description": "Thick clouds obscure the sky, reducing light levels.\n<i><color=#66E0E4FF>Odyssey</color></i>",
+    "BaseCost": 175,
+    "KarmaType": "Neutral",
+    "EventCap": 3,
+    "Enabled": true,
+    "ModSource": "Odyssey",
+    "Version": 1
+  },
+  "Blizzard": {
+    "DefName": "Blizzard",
+    "Label": "blizzard",
+    "Description": "Snow reduces the accuracy of ranged weapons, extinguishes fire, and slows people down.\n<i><color=#66E0E4FF>Odyssey</color></i>",
+    "BaseCost": 300,
+    "KarmaType": "Bad",
+    "EventCap": 3,
+    "Enabled": true,
+    "ModSource": "Odyssey",
+    "Version": 1
+  },
+  "TorrentialRain": {
+    "DefName": "TorrentialRain",
+    "Label": "torrential rain",
+    "Description": "Torrential rain causes flooding. It also reduces the accuracy of ranged weapons, extinguishes fire, and slows people down.\n<i><color=#66E0E4FF>Odyssey</color></i>",
+    "BaseCost": 300,
+    "KarmaType": "Bad",
+    "EventCap": 3,
+    "Enabled": true,
+    "ModSource": "Odyssey",
+    "Version": 1
+  },
+  "SnowyThunderStorm": {
+    "DefName": "SnowyThunderStorm",
+    "Label": "thundersnow",
+    "Description": "A rare winter phenomenon where heavy snow falls with lightning and thunder. The snow reduces visibility and movement while lightning poses fire risks.\n<i><color=#66E0E4FF>(CAP) Thunder Snow</color></i>",
+    "BaseCost": 300,
+    "KarmaType": "Bad",
+    "EventCap": 3,
+    "Enabled": true,
+    "ModSource": "[CAP] Thunder Snow",
+    "Version": 1
+  }
+}
