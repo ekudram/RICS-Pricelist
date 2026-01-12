@@ -1510,5 +1510,23 @@
     "KarmaTypeForRemoving": null,
     "ModSource": "Gender Non-Conforming",
     "Version": 1
+  },
+  "VPE_Thrall_0": {
+    "DefName": "VPE_Thrall",
+    "Name": "Thrall",
+    "Degree": 0,
+    "Description": "Psychic enthrallment caused by incredibly strong mental influence. Thralls don't need to sleep or have recreation, but are unable to do skilled work and engage in social interactions.",
+    "Stats": [],
+    "Conflicts": [],
+    "CanAdd": true,
+    "CanRemove": true,
+    "AddPrice": 150,
+    "RemovePrice": 250,
+    "BypassLimit": false,
+    "CustomName": false,
+    "KarmaTypeForAdding": null,
+    "KarmaTypeForRemoving": null,
+    "ModSource": "Vanilla Psycasts Expanded",
+    "Version": 1
   }
 }

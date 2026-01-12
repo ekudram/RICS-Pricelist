@@ -4886,5 +4886,31 @@
     "PointsScaleable": false,
     "MinThreatPoints": -3.40282347E+38,
     "MaxThreatPoints": 3.40282347E+38
+  },
+  "VPE_EltexMeteorite": {
+    "DefName": "VPE_EltexMeteorite",
+    "Label": "eltex meteorite",
+    "Description": null,
+    "WorkerClassName": "IncidentWorker_EltexMeteorite",
+    "CategoryName": "Misc",
+    "BaseCost": 479,
+    "KarmaType": "Neutral",
+    "EventCap": 2,
+    "Enabled": false,
+    "DisabledReason": "Auto-disabled: Mod event (enable manually if desired)",
+    "ShouldBeInStore": true,
+    "IsAvailableForCommands": true,
+    "CooldownDays": 0,
+    "ModSource": "Vanilla Psycasts Expanded",
+    "Version": 1,
+    "IsWeatherIncident": false,
+    "IsRaidIncident": false,
+    "IsDiseaseIncident": false,
+    "IsQuestIncident": false,
+    "BaseChance": 0.05,
+    "MinTechLevel": null,
+    "PointsScaleable": false,
+    "MinThreatPoints": -3.40282347E+38,
+    "MaxThreatPoints": 3.40282347E+38
   }
 }
