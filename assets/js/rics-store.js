@@ -202,7 +202,8 @@ processRacesData(racesObject) {
             const baseRace = {
                 defName: raceKey,
                 name: raceData.DisplayName || raceKey,
-                basePrice: raceData.BasePrice || 0,
+                // Round base price
+                basePrice: Math.round(raceData.BasePrice || 0),
                 minAge: raceData.MinAge || 0,
                 maxAge: raceData.MaxAge || 0,
                 allowCustomXenotypes: raceData.AllowCustomXenotypes || false,
@@ -217,16 +218,18 @@ processRacesData(racesObject) {
             const xenotypeEntries = [];
             if (baseRace.enabledXenotypes) {
                 Object.entries(baseRace.enabledXenotypes).forEach(([xenotype, isEnabled]) => {
-                    if (isEnabled && baseRace.xenotypePrices[xenotype]) {
-                        const xenotypePrice = baseRace.xenotypePrices[xenotype]; // Direct price
+                    if (isEnabled && baseRace.xenotypePrices[xenotype] !== undefined) {
+                        const rawPrice = baseRace.xenotypePrices[xenotype];
+                        const roundedPrice = Math.round(rawPrice); // ← round here
+
                         xenotypeEntries.push({
                             defName: `${raceKey}_${xenotype}`,
                             name: `${baseRace.name} ${xenotype}`,
-                            basePrice: xenotypePrice, // Use direct price
+                            basePrice: roundedPrice,
                             isXenotype: true,
                             parentRace: baseRace.name,
                             xenotype: xenotype,
-                            xenotypePrice: xenotypePrice, // Store for reference
+                            xenotypePrice: roundedPrice, // also store rounded
                             minAge: baseRace.minAge,
                             maxAge: baseRace.maxAge,
                             enabled: true,
@@ -236,11 +239,11 @@ processRacesData(racesObject) {
                 });
             }
 
-            // Return both the base race and its xenotypes
+            // Base race entry – already rounded above
             const baseRaceEntry = {
                 defName: raceKey,
                 name: baseRace.name,
-                basePrice: baseRace.basePrice,
+                basePrice: baseRace.basePrice, // already rounded
                 isXenotype: false,
                 minAge: baseRace.minAge,
                 maxAge: baseRace.maxAge,
@@ -253,7 +256,7 @@ processRacesData(racesObject) {
 
             return [baseRaceEntry, ...xenotypeEntries];
         })
-        .flat() // Flatten the array of arrays
+        .flat()
         .filter(race => race.enabled && race.basePrice > 0);
 }
 
