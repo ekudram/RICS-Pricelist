@@ -94,7 +94,7 @@
     "BaseCost": 600,
     "KarmaType": "Doom",
     "EventCap": 3,
-    "Enabled": true,
+    "Enabled": false,
     "ModSource": "Anomaly",
     "Version": 1
   },

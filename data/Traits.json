@@ -1,7 +1,7 @@
 {
   "Nudist_0": {
     "DefName": "Nudist",
-    "Name": "Nudist",
+    "Name": "<color=#9f40ff>Nudist</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} enjoys the feeling of freedom that comes from being nude. {PAWN_pronoun} can handle clothing, but will be happier without it.",
     "Stats": [],
@@ -19,7 +19,7 @@
   },
   "Bloodlust_0": {
     "DefName": "Bloodlust",
-    "Name": "Bloodlust",
+    "Name": "<color=#9f40ff>Bloodlust</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} gets a rush from hurting people, and never minds the sight of blood or death. {PAWN_pronoun} is four times as likely to start a social fight as others.",
     "Stats": [],
@@ -37,7 +37,7 @@
   },
   "Kind_0": {
     "DefName": "Kind",
-    "Name": "Kind",
+    "Name": "<color=#00ff00>Kind</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} is an exceptionally agreeable and giving person. {PAWN_pronoun} rarely insults others and will sometimes offer kind words to brighten the moods of those around {PAWN_objective}. {PAWN_pronoun} also never judges people by their appearance. {PAWN_possessive} agreeableness also makes {PAWN_objective} more likely to conform to prevailing opinions.",
     "Stats": [],
@@ -55,7 +55,7 @@
   },
   "Psychopath_0": {
     "DefName": "Psychopath",
-    "Name": "Psychopath",
+    "Name": "<color=#2C82FF>Psychopath</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} has no empathy. The suffering of others doesn't bother {PAWN_objective} at all. {PAWN_pronoun} doesn't mind if others are butchered, left unburied, imprisoned, or sold to slavery - unless it affects {PAWN_objective}. {PAWN_pronoun} also feels no mood boost from socializing.",
     "Stats": [],
@@ -73,7 +73,7 @@
   },
   "Cannibal_0": {
     "DefName": "Cannibal",
-    "Name": "Cannibal",
+    "Name": "<color=#9f40ff>Cannibal</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} was taught that eating human meat is wrong and horrible. But one time, long ago, {PAWN_pronoun} tried it... and {PAWN_pronoun} liked it.",
     "Stats": [],
@@ -91,7 +91,7 @@
   },
   "Abrasive_0": {
     "DefName": "Abrasive",
-    "Name": "Abrasive",
+    "Name": "<color=#2C82FF>Abrasive</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} always says exactly what's on {PAWN_possessive} mind, especially if it's bugging {PAWN_objective}. That tends to rub people the wrong way.",
     "Stats": [],
@@ -109,7 +109,7 @@
   },
   "TooSmart_0": {
     "DefName": "TooSmart",
-    "Name": "Too smart",
+    "Name": "<color=#2C82FF>Too smart</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} is too smart for {PAWN_possessive} own good. {PAWN_pronoun} learns everything much faster than everyone, but can be quite eccentric.",
     "Stats": [
@@ -130,7 +130,7 @@
   },
   "Brawler_0": {
     "DefName": "Brawler",
-    "Name": "Brawler",
+    "Name": "<color=#2C82FF>Brawler</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} likes to fight up close and personal. {PAWN_possessive} accuracy is greatly increased in melee combat, but {PAWN_pronoun}'ll be very unhappy if asked to carry a ranged weapon.",
     "Stats": [
@@ -150,7 +150,7 @@
   },
   "Masochist_0": {
     "DefName": "Masochist",
-    "Name": "Masochist",
+    "Name": "<color=#9f40ff>Masochist</color>",
     "Degree": 0,
     "Description": "For {PAWN_nameDef}, there's something exciting about getting hurt. {PAWN_pronoun} doesn't know why, {PAWN_pronoun}'s just wired differently.",
     "Stats": [],
@@ -168,7 +168,7 @@
   },
   "NightOwl_0": {
     "DefName": "NightOwl",
-    "Name": "Night owl",
+    "Name": "<color=#2C82FF>Night owl</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} likes to be up during the night, and sleep during the day.\n\n{PAWN_pronoun} gets a mood bonus if awake at night (23h-6h) and mood loss if awake during the day (11h-18h).\n\n{PAWN_pronoun} doesn't get a mood penalty for being in the dark.",
     "Stats": [],
@@ -186,7 +186,7 @@
   },
   "Greedy_0": {
     "DefName": "Greedy",
-    "Name": "Greedy",
+    "Name": "<color=#2C82FF>Greedy</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} needs a really impressive bedroom. {PAWN_pronoun} gets a mood loss if {PAWN_pronoun} doesn't get what {PAWN_pronoun} wants.",
     "Stats": [],
@@ -204,7 +204,7 @@
   },
   "Jealous_0": {
     "DefName": "Jealous",
-    "Name": "Jealous",
+    "Name": "<color=#2C82FF>Jealous</color>",
     "Degree": 0,
     "Description": "For {PAWN_nameDef}, it's degrading to have a less impressive bedroom than someone else. {PAWN_pronoun} gets a mood loss if any colonist has a more impressive bedroom.",
     "Stats": [],
@@ -222,7 +222,7 @@
   },
   "Ascetic_0": {
     "DefName": "Ascetic",
-    "Name": "Ascetic",
+    "Name": "<color=#9f40ff>Ascetic</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} has forsaken physical comforts and enjoyments in favor of a simple, pure lifestyle. {PAWN_pronoun} will become unhappy if {PAWN_pronoun} has a bedroom that's too impressive. {PAWN_pronoun} also dislikes fancy food and prefers to eat raw. {PAWN_pronoun} never judges others by their appearance.",
     "Stats": [],
@@ -240,7 +240,7 @@
   },
   "Gay_0": {
     "DefName": "Gay",
-    "Name": "Gay",
+    "Name": "<color=#d4af37>Gay</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} is romantically attracted to people of {PAWN_possessive} own gender.",
     "Stats": [],
@@ -249,7 +249,7 @@
     "CanRemove": true,
     "AddPrice": 150,
     "RemovePrice": 250,
-    "BypassLimit": false,
+    "BypassLimit": true,
     "CustomName": false,
     "KarmaTypeForAdding": null,
     "KarmaTypeForRemoving": null,
@@ -258,7 +258,7 @@
   },
   "Bisexual_0": {
     "DefName": "Bisexual",
-    "Name": "Bisexual",
+    "Name": "<color=#d4af37>Bisexual</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} is romantically attracted to both men and women.",
     "Stats": [],
@@ -276,7 +276,7 @@
   },
   "Asexual_0": {
     "DefName": "Asexual",
-    "Name": "Asexual",
+    "Name": "<color=#d4af37>Asexual</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} has no sexual attraction to anyone at all.",
     "Stats": [],
@@ -294,7 +294,7 @@
   },
   "AnnoyingVoice_0": {
     "DefName": "AnnoyingVoice",
-    "Name": "Annoying voice",
+    "Name": "<color=#9f40ff>Annoying voice</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef}'s voice has a particularly grating, nasal quality to it, and {PAWN_pronoun} tends to talk in barked, garbled phrases. This predisposes others to dislike {PAWN_objective}.",
     "Stats": [],
@@ -312,7 +312,7 @@
   },
   "CreepyBreathing_0": {
     "DefName": "CreepyBreathing",
-    "Name": "Creepy breathing",
+    "Name": "<color=#9f40ff>Creepy breathing</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} breathes heavily all the time, and sweats constantly. People find it creepy.",
     "Stats": [],
@@ -330,7 +330,7 @@
   },
   "Pyromaniac_0": {
     "DefName": "Pyromaniac",
-    "Name": "Pyromaniac",
+    "Name": "<color=#9f40ff>Pyromaniac</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} loves fire. {PAWN_pronoun} will never extinguish fires, and will occasionally go on random fire starting sprees. {PAWN_pronoun} will be happy around flames, and happier when wielding an incendiary weapon.",
     "Stats": [],
@@ -348,7 +348,7 @@
   },
   "Wimp_0": {
     "DefName": "Wimp",
-    "Name": "Wimp",
+    "Name": "<color=#2C82FF>Wimp</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} is weak and cowardly. Even a little pain will immobilize {PAWN_objective}.",
     "Stats": [
@@ -368,7 +368,7 @@
   },
   "Nimble_0": {
     "DefName": "Nimble",
-    "Name": "Nimble",
+    "Name": "<color=#2C82FF>Nimble</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} has remarkable kinesthetic intelligence. {PAWN_pronoun} seems to dance around danger with preternatural grace.",
     "Stats": [
@@ -388,7 +388,7 @@
   },
   "FastLearner_0": {
     "DefName": "FastLearner",
-    "Name": "Fast learner",
+    "Name": "<color=#2C82FF>Fast learner</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} has a knack for learning. {PAWN_pronoun} picks things up much faster than others.",
     "Stats": [
@@ -408,7 +408,7 @@
   },
   "SlowLearner_0": {
     "DefName": "SlowLearner",
-    "Name": "Slow learner",
+    "Name": "<color=#2C82FF>Slow learner</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} is slow on the uptake. {PAWN_pronoun} learns much slower than others.",
     "Stats": [
@@ -428,7 +428,7 @@
   },
   "Undergrounder_0": {
     "DefName": "Undergrounder",
-    "Name": "Undergrounder",
+    "Name": "<color=#d4af37>Undergrounder</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} has no need to experience the outdoors or light. {PAWN_pronoun} will never feel cooped up or get cabin fever and is not bothered by darkness. However, {PAWN_nameDef} will be unhappy while outdoors.",
     "Stats": [],
@@ -446,7 +446,7 @@
   },
   "Transhumanist_0": {
     "DefName": "Transhumanist",
-    "Name": "Body modder",
+    "Name": "<color=#9f40ff>Body modder</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} feels limited in {PAWN_possessive} feeble human body. {PAWN_pronoun} often dreams of being enhanced with artificial body parts or xenogenetics.",
     "Stats": [],
@@ -464,7 +464,7 @@
   },
   "BodyPurist_0": {
     "DefName": "BodyPurist",
-    "Name": "Body purist",
+    "Name": "<color=#9f40ff>Body purist</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} believes the human body is limited for a reason. To {PAWN_objective}, artificial body parts and xenogenes are unethical and disgusting.",
     "Stats": [],
@@ -482,7 +482,7 @@
   },
   "DislikesMen_0": {
     "DefName": "DislikesMen",
-    "Name": "Misandrist",
+    "Name": "<color=#9f40ff>Misandrist</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} really dislikes and distrusts men.",
     "Stats": [],
@@ -500,7 +500,7 @@
   },
   "DislikesWomen_0": {
     "DefName": "DislikesWomen",
-    "Name": "Misogynist",
+    "Name": "<color=#9f40ff>Misogynist</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} really dislikes and distrusts women.",
     "Stats": [],
@@ -518,7 +518,7 @@
   },
   "GreatMemory_0": {
     "DefName": "GreatMemory",
-    "Name": "Great memory",
+    "Name": "<color=#2C82FF>Great memory</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} has a fantastic memory for detail. {PAWN_pronoun} will lose unused skills at half the rate of other people.",
     "Stats": [],
@@ -536,7 +536,7 @@
   },
   "Tough_0": {
     "DefName": "Tough",
-    "Name": "Tough",
+    "Name": "<color=#2C82FF>Tough</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} has thick skin, dense flesh, and durable bones. {PAWN_pronoun} takes much less damage than other people from the same blows. {PAWN_pronoun} is extremely hard to kill.",
     "Stats": [],
@@ -554,7 +554,7 @@
   },
   "TorturedArtist_0": {
     "DefName": "TorturedArtist",
-    "Name": "Tortured artist",
+    "Name": "<color=#9f40ff>Tortured artist</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} feels alienated and misunderstood by other human beings. {PAWN_pronoun} will have a constant mood debuff, but gain a chance (50%) to get a creativity inspiration after a mental break.",
     "Stats": [],
@@ -572,7 +572,7 @@
   },
   "Gourmand_0": {
     "DefName": "Gourmand",
-    "Name": "Gourmand",
+    "Name": "<color=#2C82FF>Gourmand</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef}'s life revolves around food. {PAWN_pronoun} gets hungry quickly, and will occasionally be overcome with the urge to eat ravenously, even when not hungry.",
     "Stats": [],
@@ -590,7 +590,7 @@
   },
   "QuickSleeper_0": {
     "DefName": "QuickSleeper",
-    "Name": "Quick sleeper",
+    "Name": "<color=#2C82FF>Quick sleeper</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} doesn't need as much sleep as the average person. Whether {PAWN_pronoun}'s sleeping on a bed or on the ground, {PAWN_pronoun} will be fully rested in about two thirds the usual time.",
     "Stats": [
@@ -610,7 +610,7 @@
   },
   "SpeedOffset_-1": {
     "DefName": "SpeedOffset",
-    "Name": "Slowpoke",
+    "Name": "<color=#00ff00>Slowpoke</color>",
     "Degree": -1,
     "Description": "[PAWN_name] is always falling behind the group whenever [PAWN_pronoun] goes anywhere.",
     "Stats": [
@@ -630,7 +630,7 @@
   },
   "SpeedOffset_1": {
     "DefName": "SpeedOffset",
-    "Name": "Fast walker",
+    "Name": "<color=#00ff00>Fast walker</color>",
     "Degree": 1,
     "Description": "[PAWN_name] likes to be where [PAWN_pronoun]'s going. [PAWN_pronoun] walks quicker than most people.",
     "Stats": [
@@ -650,7 +650,7 @@
   },
   "SpeedOffset_2": {
     "DefName": "SpeedOffset",
-    "Name": "Jogger",
+    "Name": "<color=#00ff00>Jogger</color>",
     "Degree": 2,
     "Description": "[PAWN_name] always moves with a sense of urgency - so much so that others often fail to keep up.",
     "Stats": [
@@ -670,7 +670,7 @@
   },
   "DrugDesire_2": {
     "DefName": "DrugDesire",
-    "Name": "Chemical fascination",
+    "Name": "<color=#00ff00>Chemical fascination</color>",
     "Degree": 2,
     "Description": "[PAWN_name] is utterly fascinated with chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possibly drug binges. [PAWN_pronoun] will ignore directives to not use recreational drugs, and will consume more than a normal person.",
     "Stats": [],
@@ -688,7 +688,7 @@
   },
   "DrugDesire_1": {
     "DefName": "DrugDesire",
-    "Name": "Chemical interest",
+    "Name": "<color=#00ff00>Chemical interest</color>",
     "Degree": 1,
     "Description": "[PAWN_name] has an unusual interest in chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possible drug binges. [PAWN_pronoun] will ignore directives to not use recreational drugs, and will consume more than a normal person.",
     "Stats": [],
@@ -706,7 +706,7 @@
   },
   "DrugDesire_-1": {
     "DefName": "DrugDesire",
-    "Name": "Teetotaler",
+    "Name": "<color=#00ff00>Teetotaler</color>",
     "Degree": -1,
     "Description": "[PAWN_name] abhors the idea of gaining pleasure from chemicals. [PAWN_pronoun] strictly avoids alcohol and recreational drugs.",
     "Stats": [],
@@ -724,7 +724,7 @@
   },
   "NaturalMood_2": {
     "DefName": "NaturalMood",
-    "Name": "Sanguine",
+    "Name": "<color=#00ff00>Sanguine</color>",
     "Degree": 2,
     "Description": "[PAWN_name] is just naturally upbeat about [PAWN_possessive] situation, pretty much all the time, no matter what it is.",
     "Stats": [],
@@ -742,7 +742,7 @@
   },
   "NaturalMood_1": {
     "DefName": "NaturalMood",
-    "Name": "Optimist",
+    "Name": "<color=#00ff00>Optimist</color>",
     "Degree": 1,
     "Description": "[PAWN_name] is naturally optimistic about life. It's hard to get [PAWN_objective] down.",
     "Stats": [],
@@ -760,7 +760,7 @@
   },
   "NaturalMood_-1": {
     "DefName": "NaturalMood",
-    "Name": "Pessimist",
+    "Name": "<color=#00ff00>Pessimist</color>",
     "Degree": -1,
     "Description": "[PAWN_name] tends to look on the bad side of life.",
     "Stats": [],
@@ -778,7 +778,7 @@
   },
   "NaturalMood_-2": {
     "DefName": "NaturalMood",
-    "Name": "Depressive",
+    "Name": "<color=#00ff00>Depressive</color>",
     "Degree": -2,
     "Description": "[PAWN_name] is perenially unhappy. [PAWN_pronoun] has trouble sustaining a good mood even when everything is fine.",
     "Stats": [],
@@ -796,7 +796,7 @@
   },
   "Nerves_2": {
     "DefName": "Nerves",
-    "Name": "Iron-willed",
+    "Name": "<color=#00ff00>Iron-willed</color>",
     "Degree": 2,
     "Description": "[PAWN_name]'s will is an iron shield. [PAWN_pronoun] keeps going through thick and thin, when others broke down long before.",
     "Stats": [
@@ -816,7 +816,7 @@
   },
   "Nerves_1": {
     "DefName": "Nerves",
-    "Name": "Steadfast",
+    "Name": "<color=#00ff00>Steadfast</color>",
     "Degree": 1,
     "Description": "[PAWN_name] is mentally tough and won't break down under stresses that would crack most people.",
     "Stats": [
@@ -836,7 +836,7 @@
   },
   "Nerves_-1": {
     "DefName": "Nerves",
-    "Name": "Nervous",
+    "Name": "<color=#00ff00>Nervous</color>",
     "Degree": -1,
     "Description": "[PAWN_name] tends to crack under pressure.",
     "Stats": [
@@ -856,7 +856,7 @@
   },
   "Nerves_-2": {
     "DefName": "Nerves",
-    "Name": "Volatile",
+    "Name": "<color=#00ff00>Volatile</color>",
     "Degree": -2,
     "Description": "[PAWN_name] is on a hair-trigger all the time. [PAWN_pronoun] is the first to break in any tough situation.",
     "Stats": [
@@ -876,7 +876,7 @@
   },
   "Neurotic_1": {
     "DefName": "Neurotic",
-    "Name": "Neurotic",
+    "Name": "<color=#2C82FF>Neurotic</color>",
     "Degree": 1,
     "Description": "[PAWN_name] likes to have things squared away. [PAWN_pronoun] will work harder than most to attain this state of affairs, but [PAWN_possessive] nerves can get the better of [PAWN_objective].",
     "Stats": [
@@ -897,7 +897,7 @@
   },
   "Neurotic_2": {
     "DefName": "Neurotic",
-    "Name": "Very neurotic",
+    "Name": "<color=#2C82FF>Very neurotic</color>",
     "Degree": 2,
     "Description": "[PAWN_name] feels constantly nervous about everything that has to get done. [PAWN_pronoun] will work extremely hard to attain this state of affairs, but [PAWN_possessive] nerves can easily get the better of [PAWN_objective].",
     "Stats": [
@@ -918,7 +918,7 @@
   },
   "Industriousness_2": {
     "DefName": "Industriousness",
-    "Name": "Industrious",
+    "Name": "<color=#00ff00>Industrious</color>",
     "Degree": 2,
     "Description": "[PAWN_name] has an easy time staying on-task and focused, and gets things done much faster than the average person.",
     "Stats": [
@@ -938,7 +938,7 @@
   },
   "Industriousness_1": {
     "DefName": "Industriousness",
-    "Name": "Hard worker",
+    "Name": "<color=#00ff00>Hard worker</color>",
     "Degree": 1,
     "Description": "[PAWN_name] is a natural hard worker and will finish tasks faster than most.",
     "Stats": [
@@ -958,7 +958,7 @@
   },
   "Industriousness_-1": {
     "DefName": "Industriousness",
-    "Name": "Lazy",
+    "Name": "<color=#00ff00>Lazy</color>",
     "Degree": -1,
     "Description": "[PAWN_name] is a little bit lazy.",
     "Stats": [
@@ -978,7 +978,7 @@
   },
   "Industriousness_-2": {
     "DefName": "Industriousness",
-    "Name": "Slothful",
+    "Name": "<color=#00ff00>Slothful</color>",
     "Degree": -2,
     "Description": "[PAWN_name] loves idleness and hates anything productive. [PAWN_pronoun] moves slowly and rarely stays focused on a task.",
     "Stats": [
@@ -998,7 +998,7 @@
   },
   "PsychicSensitivity_2": {
     "DefName": "PsychicSensitivity",
-    "Name": "Psychically hypersensitive",
+    "Name": "<color=#00ff00>Psychically Hypersensitive</color>",
     "Degree": 2,
     "Description": "[PAWN_name]'s mind is like a psychic tuning fork. [PAWN_pronoun] is extremely sensitive to psychic phenomena.",
     "Stats": [
@@ -1018,7 +1018,7 @@
   },
   "PsychicSensitivity_1": {
     "DefName": "PsychicSensitivity",
-    "Name": "Psychically sensitive",
+    "Name": "<color=#00ff00>Psychically Sensitive</color>",
     "Degree": 1,
     "Description": "[PAWN_name]'s mind is unusually sensitive to psychic phenomena.",
     "Stats": [
@@ -1038,7 +1038,7 @@
   },
   "PsychicSensitivity_-1": {
     "DefName": "PsychicSensitivity",
-    "Name": "Psychically dull",
+    "Name": "<color=#00ff00>Psychically Dull</color>",
     "Degree": -1,
     "Description": "[PAWN_name]'s mind is psychically out of tune with others. [PAWN_pronoun] isn't as affected by psychic phenomena.",
     "Stats": [
@@ -1058,7 +1058,7 @@
   },
   "PsychicSensitivity_-2": {
     "DefName": "PsychicSensitivity",
-    "Name": "Psychically deaf",
+    "Name": "<color=#00ff00>Psychically Deaf</color>",
     "Degree": -2,
     "Description": "[PAWN_name]'s mind works on a psychic frequency different from everyone else. [PAWN_pronoun] just isn't affected by psychic phenomena.",
     "Stats": [
@@ -1078,7 +1078,7 @@
   },
   "ShootingAccuracy_1": {
     "DefName": "ShootingAccuracy",
-    "Name": "Careful shooter",
+    "Name": "<color=#00ff00>Careful shooter</color>",
     "Degree": 1,
     "Description": "[PAWN_name] takes more time to aim when shooting. [PAWN_pronoun] shoots less often than others, but with more accuracy.",
     "Stats": [
@@ -1099,7 +1099,7 @@
   },
   "ShootingAccuracy_-1": {
     "DefName": "ShootingAccuracy",
-    "Name": "Trigger-happy",
+    "Name": "<color=#00ff00>Trigger-happy</color>",
     "Degree": -1,
     "Description": "Pew! Pew! Pew! [PAWN_name] just likes pulling the trigger. [PAWN_pronoun] shoots faster than others, but less accurately.",
     "Stats": [
@@ -1120,7 +1120,7 @@
   },
   "Beauty_2": {
     "DefName": "Beauty",
-    "Name": "Beautiful",
+    "Name": "<color=#00ff00>Beautiful</color>",
     "Degree": 2,
     "Description": "[PAWN_name] is exceptionally beautiful, with an exotic-yet-familiar facial structure and an arresting gaze. People are attracted to [PAWN_objective] before [PAWN_pronoun] even opens [PAWN_possessive] mouth.",
     "Stats": [
@@ -1140,7 +1140,7 @@
   },
   "Beauty_1": {
     "DefName": "Beauty",
-    "Name": "Pretty",
+    "Name": "<color=#00ff00>Pretty</color>",
     "Degree": 1,
     "Description": "[PAWN_name] has a pretty face, which predisposes people to like [PAWN_objective].",
     "Stats": [
@@ -1160,7 +1160,7 @@
   },
   "Beauty_-1": {
     "DefName": "Beauty",
-    "Name": "Ugly",
+    "Name": "<color=#00ff00>Ugly</color>",
     "Degree": -1,
     "Description": "[PAWN_name] is somewhat ugly. This subtly repels others during social interactions.",
     "Stats": [
@@ -1180,7 +1180,7 @@
   },
   "Beauty_-2": {
     "DefName": "Beauty",
-    "Name": "Staggeringly ugly",
+    "Name": "<color=#00ff00>Staggeringly Ugly</color>",
     "Degree": -2,
     "Description": "[PAWN_name] is staggeringly ugly. [PAWN_possessive] face looks like a cross between a drawing by an untalented child, a malformed fetus in a jar of formaldehyde, and a piece of modern art. Others must exert conscious effort to look at [PAWN_objective] while conversing.",
     "Stats": [
@@ -1200,7 +1200,7 @@
   },
   "Immunity_1": {
     "DefName": "Immunity",
-    "Name": "Super-immune",
+    "Name": "<color=#2C82FF>Super-immune</color>",
     "Degree": 1,
     "Description": "[PAWN_name] has a naturally powerful immune system. [PAWN_pronoun] will gain immunity much faster than a normal person would, and can survive illnesses that would kill others.",
     "Stats": [
@@ -1220,7 +1220,7 @@
   },
   "Immunity_-1": {
     "DefName": "Immunity",
-    "Name": "Sickly",
+    "Name": "<color=#2C82FF>Sickly</color>",
     "Degree": -1,
     "Description": "[PAWN_name] has an awful immune system. [PAWN_pronoun] gets sick more often than usual, frequently with illnesses that nobody in the colony has been afflicted by.",
     "Stats": [],
@@ -1238,7 +1238,7 @@
   },
   "Delicate_0": {
     "DefName": "Delicate",
-    "Name": "Delicate",
+    "Name": "<color=#00ff00>Delicate</color>",
     "Degree": 0,
     "Description": "{PAWN_nameDef} has fragile skin and bones. {PAWN_pronoun} takes more damage than other people from the same blows.",
     "Stats": [],
@@ -1256,7 +1256,7 @@
   },
   "Recluse_0": {
     "DefName": "Recluse",
-    "Name": "Recluse",
+    "Name": "<color=#2C82FF>Recluse</color>",
     "Degree": 0,
     "Description": "The fewer people in {PAWN_nameDef}'s faction, the happier {PAWN_pronoun} is. Being alone is best of all.",
     "Stats": [],

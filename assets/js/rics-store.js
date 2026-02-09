@@ -74,6 +74,25 @@ class RICSStore {
         }
     }
 
+    convertRimWorldColors(text) {
+        if (!text || typeof text !== 'string') return text;
+
+        // Convert RimWorld Unity rich text to HTML
+        // Handle <color=#xxxxxx>text</color>
+        // Also handle other Unity rich text tags
+        let result = text;
+
+        // Convert color tags to span with style
+        result = result.replace(/<color=#([0-9a-fA-F]{6,8})>(.*?)<\/color>/gi,
+            '<span style="color: #$1">$2</span>');
+
+        // Convert other Unity rich text tags to HTML if needed
+        result = result.replace(/<b>(.*?)<\/b>/gi, '<strong>$1</strong>');
+        result = result.replace(/<i>(.*?)<\/i>/gi, '<em>$1</em>');
+
+        return result;
+    }
+
     processItemsData(itemsObject) {
         return Object.entries(itemsObject)
             .map(([key, itemData]) => {
@@ -177,66 +196,66 @@ class RICSStore {
             .replace(/\[PAWN_def\]/g, 'Timmy');
     }
 
-    processRacesData(racesObject) {
-        return Object.entries(racesObject)
-            .map(([raceKey, raceData]) => {
-                const baseRace = {
-                    defName: raceKey,
-                    name: raceData.DisplayName || raceKey,
-                    basePrice: raceData.BasePrice || 0,
-                    minAge: raceData.MinAge || 0,
-                    maxAge: raceData.MaxAge || 0,
-                    allowCustomXenotypes: raceData.AllowCustomXenotypes || false,
-                    defaultXenotype: raceData.DefaultXenotype || 'None',
-                    enabled: raceData.Enabled !== false,
-                    allowedGenders: raceData.AllowedGenders || {},
-                    xenotypePrices: raceData.XenotypePrices || {},
-                    enabledXenotypes: raceData.EnabledXenotypes || {}
-                };
+processRacesData(racesObject) {
+    return Object.entries(racesObject)
+        .map(([raceKey, raceData]) => {
+            const baseRace = {
+                defName: raceKey,
+                name: raceData.DisplayName || raceKey,
+                basePrice: raceData.BasePrice || 0,
+                minAge: raceData.MinAge || 0,
+                maxAge: raceData.MaxAge || 0,
+                allowCustomXenotypes: raceData.AllowCustomXenotypes || false,
+                defaultXenotype: raceData.DefaultXenotype || 'None',
+                enabled: raceData.Enabled !== false,
+                allowedGenders: raceData.AllowedGenders || {},
+                xenotypePrices: raceData.XenotypePrices || {},
+                enabledXenotypes: raceData.EnabledXenotypes || {}
+            };
 
-                // Create entries for each enabled xenotype
-                const xenotypeEntries = [];
-                if (baseRace.enabledXenotypes) {
-                    Object.entries(baseRace.enabledXenotypes).forEach(([xenotype, isEnabled]) => {
-                        if (isEnabled && baseRace.xenotypePrices[xenotype]) {
-                            const xenotypePrice = baseRace.basePrice * baseRace.xenotypePrices[xenotype];
-                            xenotypeEntries.push({
-                                defName: `${raceKey}_${xenotype}`,
-                                name: `${baseRace.name} ${xenotype}`, // Changed from "Human (Baseliner)" to "Human Baseliner"
-                                basePrice: Math.round(xenotypePrice),
-                                isXenotype: true,
-                                parentRace: baseRace.name,
-                                xenotype: xenotype,
-                                priceMultiplier: baseRace.xenotypePrices[xenotype],
-                                minAge: baseRace.minAge,
-                                maxAge: baseRace.maxAge,
-                                enabled: true,
-                                allowedGenders: baseRace.allowedGenders // Pass along gender info
-                            });
-                        }
-                    });
-                }
+            // Create entries for each enabled xenotype
+            const xenotypeEntries = [];
+            if (baseRace.enabledXenotypes) {
+                Object.entries(baseRace.enabledXenotypes).forEach(([xenotype, isEnabled]) => {
+                    if (isEnabled && baseRace.xenotypePrices[xenotype]) {
+                        const xenotypePrice = baseRace.xenotypePrices[xenotype]; // Direct price
+                        xenotypeEntries.push({
+                            defName: `${raceKey}_${xenotype}`,
+                            name: `${baseRace.name} ${xenotype}`,
+                            basePrice: xenotypePrice, // Use direct price
+                            isXenotype: true,
+                            parentRace: baseRace.name,
+                            xenotype: xenotype,
+                            xenotypePrice: xenotypePrice, // Store for reference
+                            minAge: baseRace.minAge,
+                            maxAge: baseRace.maxAge,
+                            enabled: true,
+                            allowedGenders: baseRace.allowedGenders
+                        });
+                    }
+                });
+            }
 
-                // Return both the base race and its xenotypes
-                const baseRaceEntry = {
-                    defName: raceKey,
-                    name: baseRace.name,
-                    basePrice: baseRace.basePrice,
-                    isXenotype: false,
-                    minAge: baseRace.minAge,
-                    maxAge: baseRace.maxAge,
-                    allowCustomXenotypes: baseRace.allowCustomXenotypes,
-                    defaultXenotype: baseRace.defaultXenotype,
-                    enabled: baseRace.enabled,
-                    xenotypeCount: xenotypeEntries.length,
-                    allowedGenders: baseRace.allowedGenders
-                };
+            // Return both the base race and its xenotypes
+            const baseRaceEntry = {
+                defName: raceKey,
+                name: baseRace.name,
+                basePrice: baseRace.basePrice,
+                isXenotype: false,
+                minAge: baseRace.minAge,
+                maxAge: baseRace.maxAge,
+                allowCustomXenotypes: baseRace.allowCustomXenotypes,
+                defaultXenotype: baseRace.defaultXenotype,
+                enabled: baseRace.enabled,
+                xenotypeCount: xenotypeEntries.length,
+                allowedGenders: baseRace.allowedGenders
+            };
 
-                return [baseRaceEntry, ...xenotypeEntries];
-            })
-            .flat() // Flatten the array of arrays
-            .filter(race => race.enabled && race.basePrice > 0);
-    }
+            return [baseRaceEntry, ...xenotypeEntries];
+        })
+        .flat() // Flatten the array of arrays
+        .filter(race => race.enabled && race.basePrice > 0);
+}
 
     renderAllTabs() {
         this.renderItems();
@@ -294,10 +313,14 @@ class RICSStore {
             return;
         }
 
-        tbody.innerHTML = events.map(event => `
+        tbody.innerHTML = events.map(event => {
+            // Convert event label colors
+            const coloredLabel = this.convertRimWorldColors(event.label);
+
+            return `
         <tr>
             <td>
-                <div class="item-name">${this.escapeHtml(event.label)}</div>
+                <div class="item-name">${coloredLabel}</div>
                 <span class="metadata">
                     ${this.escapeHtml(event.defName)}
                     <br>From ${this.escapeHtml(event.modSource)}
@@ -309,7 +332,7 @@ class RICSStore {
             </td>
             <td>${this.escapeHtml(event.karmaType)}</td>
         </tr>
-    `).join('');
+    `}).join('');
     }
 
     renderTraits() {
@@ -321,10 +344,14 @@ class RICSStore {
             return;
         }
 
-        tbody.innerHTML = traits.map(trait => `
+        tbody.innerHTML = traits.map(trait => {
+            // Convert trait name colors to HTML
+            const coloredName = this.convertRimWorldColors(trait.name);
+
+            return `
             <tr>
                 <td>
-                    <div class="item-name">${this.escapeHtml(trait.name)}</div>
+                    <div class="item-name">${coloredName}</div>
                     <span class="metadata">
                         ${this.escapeHtml(trait.defName)}
                         <br>From ${this.escapeHtml(trait.modSource)}
@@ -338,35 +365,48 @@ class RICSStore {
                     ${trait.canRemove ? `<strong>${trait.removePrice}</strong>` : '<span class="metadata">Cannot Remove</span>'}
                 </td>
                 <td>
-                    <div class="trait-description">${this.escapeHtml(trait.description)}</div>
+                    <div class="trait-description">${this.convertRimWorldColors(trait.description)}</div>
                     ${this.renderTraitStats(trait)}
                     ${this.renderTraitConflicts(trait)}
                 </td>
             </tr>
-        `).join('');
+        `;
+        }).join('');
     }
 
     renderTraitStats(trait) {
         if (!trait.stats || trait.stats.length === 0) return '';
 
+        const statsHtml = trait.stats.map(stat => {
+            // Convert colors in stats too
+            const coloredStat = this.convertRimWorldColors(stat);
+            return `<li>${coloredStat}</li>`;
+        }).join('');
+
         return `
-            <div class="metadata">
-                <strong>Stats:</strong>
-                <ul style="margin: 5px 0; padding-left: 20px;">
-                    ${trait.stats.map(stat => `<li>${this.escapeHtml(stat)}</li>`).join('')}
-                </ul>
-            </div>
-        `;
+        <div class="metadata">
+            <strong>Stats:</strong>
+            <ul style="margin: 5px 0; padding-left: 20px;">
+                ${statsHtml}
+            </ul>
+        </div>
+    `;
     }
 
     renderTraitConflicts(trait) {
         if (!trait.conflicts || trait.conflicts.length === 0) return '';
 
+        const conflictsHtml = trait.conflicts.map(conflict => {
+            // Convert colors in conflicts
+            const coloredConflict = this.convertRimWorldColors(conflict);
+            return `<li>${coloredConflict}</li>`;
+        }).join('');
+
         return `
         <div class="metadata">
             <strong>Conflicts with:</strong>
             <ul style="margin: 5px 0; padding-left: 20px;">
-                ${trait.conflicts.map(conflict => `<li>${this.escapeHtml(conflict)}</li>`).join('')}
+                ${conflictsHtml}
             </ul>
         </div>
     `;
@@ -375,12 +415,12 @@ class RICSStore {
     renderRaces() {
         const tbody = document.getElementById('races-tbody');
         const races = this.filteredData.races;
-
+    
         if (races.length === 0) {
             tbody.innerHTML = '<tr><td colspan="5" style="text-align: center; padding: 40px;">No races found</td></tr>';
             return;
         }
-
+    
         tbody.innerHTML = races.map(race => `
         <tr>
             <td>
@@ -393,7 +433,7 @@ class RICSStore {
             </td>
             <td class="no-wrap">
                 <strong>${race.basePrice}</strong>
-                ${race.isXenotype ? `<span class="metadata">${(race.priceMultiplier * 100).toFixed(0)}% of base</span>` : ''}
+                ${race.isXenotype ? `<span class="metadata">Direct price</span>` : ''}
             </td>
             <td class="no-wrap">
                 Age: ${race.minAge}-${race.maxAge}
@@ -414,10 +454,14 @@ class RICSStore {
             return;
         }
 
-        tbody.innerHTML = weather.map(weatherItem => `
+        tbody.innerHTML = weather.map(weatherItem => {
+            // Convert weather label colors
+            const coloredLabel = this.convertRimWorldColors(weatherItem.label);
+
+            return `
         <tr>
             <td>
-                <div class="item-name">${this.escapeHtml(weatherItem.label)}</div>
+                <div class="item-name">${coloredLabel}</div>
                 <span class="metadata">
                     ${this.escapeHtml(weatherItem.defName)}
                     <br>From ${this.escapeHtml(weatherItem.modSource)}
@@ -429,10 +473,12 @@ class RICSStore {
             </td>
             <td>${this.escapeHtml(weatherItem.karmaType)}</td>
             <td>
-                ${weatherItem.description ? `<div class="trait-description">${this.escapeHtml(weatherItem.description)}</div>` : 'No description'}
+                ${weatherItem.description ?
+                    `<div class="trait-description">${this.convertRimWorldColors(weatherItem.description)}</div>` :
+                    'No description'}
             </td>
         </tr>
-    `).join('');
+    `}).join('');
     }
 
     // Helper method to format available genders
@@ -548,12 +594,18 @@ class RICSStore {
 
     escapeHtml(unsafe) {
         if (typeof unsafe !== 'string') return unsafe;
-        return unsafe
-            .replace(/&/g, "&amp;")
-            .replace(/</g, "&lt;")
-            .replace(/>/g, "&gt;")
-            .replace(/"/g, "&quot;")
-            .replace(/'/g, "&#039;");
+
+        // First convert RimWorld color tags to HTML
+        unsafe = this.convertRimWorldColors(unsafe);
+
+        // Then escape any remaining HTML that isn't from our color conversion
+        // But don't escape the spans we just created
+        const tempDiv = document.createElement('div');
+        tempDiv.textContent = unsafe;
+
+        // Get the HTML back, which will have proper escaping for text content
+        // but preserve the span tags we inserted
+        return tempDiv.innerHTML;
     }
 
     loadSampleData() {
@@ -590,6 +642,7 @@ class RICSStore {
         this.filteredData.items = [...this.data.items];
         this.renderItems();
     }
+
 }
 
 // Initialize when page loads
