@@ -90,18 +90,29 @@
   "BloodRain": {
     "DefName": "BloodRain",
     "Label": "blood rain",
-    "Description": "Anyone exposed to the blood rain for long enough will be driven into a berserk rage. Certain traits and psychic sensitivity influence the berserk effect.\n\n<i><color=#66E0E4FF>Anomaly</color></i>",
+    "Description": "Anyone exposed to the blood rain for long enough will be driven into a berserk rage. Certain traits and psychic sensitivity influence the berserk effect.",
     "BaseCost": 600,
     "KarmaType": "Doom",
     "EventCap": 3,
-    "Enabled": false,
+    "Enabled": true,
     "ModSource": "Anomaly",
+    "Version": 1
+  },
+  "Windy": {
+    "DefName": "Windy",
+    "Label": "windy",
+    "Description": "Strong winds reduce movement speed.",
+    "BaseCost": 175,
+    "KarmaType": "Neutral",
+    "EventCap": 3,
+    "Enabled": true,
+    "ModSource": "Odyssey",
     "Version": 1
   },
   "ToxRain": {
     "DefName": "ToxRain",
     "Label": "tox rain",
-    "Description": "Tox rain makes creatures sick with toxic buildup. It also reduces the accuracy of ranged weapons, extinguishes fire, and slows people down.\n\n<i><color=#66E0E4FF>Odyssey</color></i>",
+    "Description": "Tox rain makes creatures sick with toxic buildup. It also reduces the accuracy of ranged weapons, extinguishes fire, and slows people down.",
     "BaseCost": 600,
     "KarmaType": "Doom",
     "EventCap": 3,
@@ -112,7 +123,7 @@
   "Sandstorm": {
     "DefName": "Sandstorm",
     "Label": "sandstorm",
-    "Description": "Sandstorms reduce the accuracy of ranged weapons, slow people down, and get sand everywhere.\n\n<i><color=#66E0E4FF>Odyssey</color></i>",
+    "Description": "Sandstorms reduce the accuracy of ranged weapons, slow people down, and get sand everywhere.",
     "BaseCost": 300,
     "KarmaType": "Bad",
     "EventCap": 3,
@@ -123,7 +134,7 @@
   "BlindFog": {
     "DefName": "BlindFog",
     "Label": "blind fog",
-    "Description": "A heavy fog that reduces the accuracy of ranged weapons, as well as their maximum range.\n\n<i><color=#66E0E4FF>Odyssey</color></i>",
+    "Description": "A heavy fog that reduces the accuracy of ranged weapons, as well as their maximum range.",
     "BaseCost": 150,
     "KarmaType": "Neutral",
     "EventCap": 3,
@@ -134,7 +145,7 @@
   "Overcast": {
     "DefName": "Overcast",
     "Label": "overcast",
-    "Description": "Thick clouds obscure the sky, reducing light levels.\n\n<i><color=#66E0E4FF>Odyssey</color></i>",
+    "Description": "Thick clouds obscure the sky, reducing light levels.",
     "BaseCost": 175,
     "KarmaType": "Neutral",
     "EventCap": 3,
@@ -145,7 +156,7 @@
   "Blizzard": {
     "DefName": "Blizzard",
     "Label": "blizzard",
-    "Description": "Snow reduces the accuracy of ranged weapons, extinguishes fire, and slows people down.\n\n<i><color=#66E0E4FF>Odyssey</color></i>",
+    "Description": "Snow reduces the accuracy of ranged weapons, extinguishes fire, and slows people down.",
     "BaseCost": 300,
     "KarmaType": "Bad",
     "EventCap": 3,
@@ -156,7 +167,7 @@
   "TorrentialRain": {
     "DefName": "TorrentialRain",
     "Label": "torrential rain",
-    "Description": "Torrential rain causes flooding. It also reduces the accuracy of ranged weapons, extinguishes fire, and slows people down.\n\n<i><color=#66E0E4FF>Odyssey</color></i>",
+    "Description": "Torrential rain causes flooding. It also reduces the accuracy of ranged weapons, extinguishes fire, and slows people down.",
     "BaseCost": 300,
     "KarmaType": "Bad",
     "EventCap": 3,
@@ -164,21 +175,10 @@
     "ModSource": "Odyssey",
     "Version": 1
   },
-  "Windy": {
-    "DefName": "Windy",
-    "Label": "windy",
-    "Description": "A clear, windy day, great for turbines, not so great for shooting.\n\n<i><color=#66E0E4FF>Seasonal Weather (Continued)</color></i>",
-    "BaseCost": 175,
-    "KarmaType": "Neutral",
-    "EventCap": 3,
-    "Enabled": true,
-    "ModSource": "Seasonal Weather (Continued)",
-    "Version": 1
-  },
   "SnowyThunderStorm": {
     "DefName": "SnowyThunderStorm",
     "Label": "thundersnow",
-    "Description": "A rare winter phenomenon where heavy snow falls with lightning and thunder. The snow reduces visibility and movement while lightning poses fire risks.\n\n<i><color=#66E0E4FF>(CAP) Thunder Snow</color></i>",
+    "Description": "A rare winter phenomenon where heavy snow falls with lightning and thunder. The snow reduces visibility and movement while lightning poses fire risks.",
     "BaseCost": 300,
     "KarmaType": "Bad",
     "EventCap": 3,
