@@ -29,18 +29,7 @@ from `%AppData%\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\Config\CAP_Ch
 
 ## Updating Your Fork
 
-### If you've just forked this repo:
-1. Go to Settings → Pages
-2. Set Source to "Deploy from a branch"
-3. Select branch `main` and folder `/root`
-4. Click Save - your site will be at `https://YOUR-USERNAME.github.io/REPO-NAME`
-
 ### To update your fork with new changes:
-#### Simple method:
-1. Go to your fork on GitHub
-2. Edit `assets/js/rics-store.js`
-3. Replace the `processRacesData` and `renderRaces` functions with the latest versions
-4. Commit changes
 
 #### Using Sync Fork:
 1. Go to your fork
