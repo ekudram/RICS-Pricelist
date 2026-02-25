@@ -10,7 +10,7 @@ A GitHub Pages site for displaying RICS mod purchase lists.
 3. Upload your RICS JSON files to the `data/` folder 
 from `%AppData%\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\Config\CAP_ChatInteractive` :
    - `StoreItems.json`
-   - `Events.json` 
+   - `Incidents.json` 
    - `Traits.json`
    - `Racessetting.json`
    - `Weather.json`
