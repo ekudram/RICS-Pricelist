@@ -1,0 +1,408 @@
+{
+  "exportedAt": "2026-06-21T22:06:10.9082067Z",
+  "totalActiveMods": 67,
+  "mods": [
+    {
+      "author": "Captolamia",
+      "name": "[CAP] Rimworld Interactive Chat Service",
+      "steamId": "3603078790",
+      "version": null
+    },
+    {
+      "author": "Danimineiro",
+      "name": "[DN] Bundle Of Traits",
+      "steamId": "2600986277",
+      "version": "4.0.6"
+    },
+    {
+      "author": "FrozenSnowFox",
+      "name": "[FSF] Vanilla Bionics Expansion",
+      "steamId": "1419675146",
+      "version": null
+    },
+    {
+      "author": "Rainbeau Flambe (original) & Kiame Vivacity (exDev) & Luca (Current Maintainer)",
+      "name": "[LC] Consolidated Traits",
+      "steamId": "2879753009",
+      "version": null
+    },
+    {
+      "author": "seobongzu",
+      "name": "[sbz] Neat Storage",
+      "steamId": "3416243474",
+      "version": null
+    },
+    {
+      "author": "AliceTries,  updated by Ogliss",
+      "name": "[WarHammer 40k] GeneSeed",
+      "steamId": "2017823407",
+      "version": null
+    },
+    {
+      "author": "XeoNovaDan,  Jelly",
+      "name": "[XND] Proper Shotguns (Continued)",
+      "steamId": "2584374906",
+      "version": null
+    },
+    {
+      "author": "Andreas Pardeike",
+      "name": "Achtung!",
+      "steamId": "730936602",
+      "version": "4.1.8.0"
+    },
+    {
+      "author": "Soul, Phaneron, Bradson",
+      "name": "Adaptive Storage Framework",
+      "steamId": "3033901359",
+      "version": null
+    },
+    {
+      "author": "UnlimitedHugs",
+      "name": "Allow Tool",
+      "steamId": "761421485",
+      "version": null
+    },
+    {
+      "author": "Ludeon Studios",
+      "name": "Anomaly",
+      "steamId": null,
+      "version": null
+    },
+    {
+      "author": "Biscuit",
+      "name": "Archotech+ (Continued)",
+      "steamId": "2270493883",
+      "version": "1.6.1"
+    },
+    {
+      "author": "Ludeon Studios",
+      "name": "Biotech",
+      "steamId": null,
+      "version": null
+    },
+    {
+      "author": "TranslucencY",
+      "name": "Brain In a Jar",
+      "steamId": "1596121128",
+      "version": null
+    },
+    {
+      "author": "Andreas Pardeike",
+      "name": "Camera+",
+      "steamId": "867467808",
+      "version": "3.4.4.0"
+    },
+    {
+      "author": "void",
+      "name": "Character Editor",
+      "steamId": "1874644848",
+      "version": "1.6.1"
+    },
+    {
+      "author": "CrashM",
+      "name": "CM Color Coded Mood Bar [1.1+]",
+      "steamId": "2006605356",
+      "version": null
+    },
+    {
+      "author": "Ludeon Studios",
+      "name": "Core",
+      "steamId": null,
+      "version": null
+    },
+    {
+      "author": "Spdskatr,  CaesarV6",
+      "name": "Damage Indicators [1.6]",
+      "steamId": "2016331497",
+      "version": null
+    },
+    {
+      "author": "HaiLuan, 昏暗",
+      "name": "Dlc collaboration - Void universe",
+      "steamId": "3587277884",
+      "version": null
+    },
+    {
+      "author": "MTkush",
+      "name": "Don't Drop Weapon",
+      "steamId": "3533958162",
+      "version": null
+    },
+    {
+      "author": "telardo",
+      "name": "DragSelect",
+      "steamId": "2599942235",
+      "version": "1.6.0.2"
+    },
+    {
+      "author": "Victorique,  Aurani,  Tarojun",
+      "name": "EPOE-Forked: Royalty DLC expansion",
+      "steamId": "2008970276",
+      "version": null
+    },
+    {
+      "author": "Victorique,  Aurani,  Tarojun",
+      "name": "Expanded Prosthetics and Organ Engineering - Forked",
+      "steamId": "1949064302",
+      "version": null
+    },
+    {
+      "author": "ThatHitmann",
+      "name": "Geneva Checklist",
+      "steamId": "3339044171",
+      "version": null
+    },
+    {
+      "author": "Clashgore,  Odzmang,  BlackMarket420,  Tittymcswaggy,  Alite,  Abomination,  Epsilon,  Maxim,  Samael,  Con,  Eridanus,  atxmatt2510",
+      "name": "Grimworld 40,000 - Angels of Death",
+      "steamId": "3119816857",
+      "version": null
+    },
+    {
+      "author": "Clashgore,  Odzmang,  BlackMarket420,  Tittymcswaggy,  Alite,  Abomination,  Epsilon,  Maxim,  Shun The Witch,  Samael,  Con,  atxmatt2510",
+      "name": "GrimWorld 40,000 - Core Imperialis",
+      "steamId": "3018671708",
+      "version": null
+    },
+    {
+      "author": "Clashgore,  Odzmang,  BlackMarket420,  Tittymcswaggy,  Alite,  Abomination,  Epsilon,  Maxim,  Shun The Witch,  Samael,  Con,  ThatHitmann,  atxmatt2510",
+      "name": "GrimWorld 40,000 - Framework",
+      "steamId": "3119805903",
+      "version": null
+    },
+    {
+      "author": "Andreas Pardeike",
+      "name": "Harmony",
+      "steamId": "2009463077",
+      "version": "2.4.2.0"
+    },
+    {
+      "author": "Hautarche",
+      "name": "Hauts' Added Traits",
+      "steamId": "3422847391",
+      "version": null
+    },
+    {
+      "author": "Hautarche",
+      "name": "Hauts' Framework",
+      "steamId": "3422815711",
+      "version": null
+    },
+    {
+      "author": "Kor_HellCross",
+      "name": "HC Animal Continued",
+      "steamId": "3238206164",
+      "version": null
+    },
+    {
+      "author": "Falconne / Syrus",
+      "name": "Heat Map (Continued)",
+      "steamId": "2552838384",
+      "version": null
+    },
+    {
+      "author": "UnlimitedHugs",
+      "name": "HugsLib",
+      "steamId": "818773962",
+      "version": null
+    },
+    {
+      "author": "Ludeon Studios",
+      "name": "Ideology",
+      "steamId": null,
+      "version": null
+    },
+    {
+      "author": "LTS",
+      "name": "Integrated Implants",
+      "steamId": "3223443793",
+      "version": null
+    },
+    {
+      "author": "Talesoftherim",
+      "name": "Mass Graves 1.6",
+      "steamId": "3545739596",
+      "version": null
+    },
+    {
+      "author": "emitbreaker",
+      "name": "MIM - WH40k Anomaly",
+      "steamId": "3234482913",
+      "version": null
+    },
+    {
+      "author": "emitbreaker",
+      "name": "MIM - WH40k Core",
+      "steamId": "3092884094",
+      "version": null
+    },
+    {
+      "author": "emitbreaker",
+      "name": "MIM - WH40k Ideology",
+      "steamId": "3159958781",
+      "version": null
+    },
+    {
+      "author": "emitbreaker",
+      "name": "MIM - WH40k Weapons",
+      "steamId": "3092891450",
+      "version": null
+    },
+    {
+      "author": "emitbreaker",
+      "name": "MIM Warhammer 40k Adeptus Astartes Core",
+      "steamId": "3521177525",
+      "version": null
+    },
+    {
+      "author": "emitbreaker",
+      "name": "MIM Warhammer 40k Necron Core",
+      "steamId": "3517416016",
+      "version": null
+    },
+    {
+      "author": "emitbreaker",
+      "name": "MIM Warhammer 40k White Scars",
+      "steamId": "3521179188",
+      "version": null
+    },
+    {
+      "author": "kotobike",
+      "name": "Monolith is a part of the ship",
+      "steamId": "3537285852",
+      "version": null
+    },
+    {
+      "author": "Ludeon Studios",
+      "name": "Odyssey",
+      "steamId": null,
+      "version": null
+    },
+    {
+      "author": "Patricia?!",
+      "name": "Patricia's Moveable Monoliths",
+      "steamId": "3219733061",
+      "version": null
+    },
+    {
+      "author": "fed1sPlay",
+      "name": "Pawn Target Fix",
+      "steamId": "2014789938",
+      "version": null
+    },
+    {
+      "author": "Mehni",
+      "name": "Pick Up And Haul",
+      "steamId": "1279012058",
+      "version": null
+    },
+    {
+      "author": "Zetrith,  jikulopo",
+      "name": "Prepatcher",
+      "steamId": "3563469557",
+      "version": "1.3.3"
+    },
+    {
+      "author": "iamrespawn",
+      "name": "Prosthetic No Missing Body Parts (Continued)",
+      "steamId": "2739055353",
+      "version": "1.6.1"
+    },
+    {
+      "author": "Fluffy",
+      "name": "Research Tree (Continued)",
+      "steamId": "3030499331",
+      "version": "1.6.8"
+    },
+    {
+      "author": "Jaxe",
+      "name": "RimHUD",
+      "steamId": "1508850027",
+      "version": null
+    },
+    {
+      "author": "ruPal",
+      "name": "RimPy Mod Manager Database",
+      "steamId": "1847679158",
+      "version": null
+    },
+    {
+      "author": "Sierra",
+      "name": "RimTraits - General Traits",
+      "steamId": "2206957172",
+      "version": null
+    },
+    {
+      "author": "Ludeon Studios",
+      "name": "Royalty",
+      "steamId": null,
+      "version": null
+    },
+    {
+      "author": "Roolo, Updated by Ogliss, kotobike",
+      "name": "RunAndGun",
+      "steamId": "3523879860",
+      "version": null
+    },
+    {
+      "author": "MemeGoddess",
+      "name": "Search and Destroy (Continued)",
+      "steamId": "3232242247",
+      "version": null
+    },
+    {
+      "author": "Sarg",
+      "name": "Smart Speed",
+      "steamId": "1504723424",
+      "version": null
+    },
+    {
+      "author": "emitbreaker",
+      "name": "Sustainable Toxic Environment",
+      "steamId": "3254886145",
+      "version": null
+    },
+    {
+      "author": "Nephlite,  Maxim,  Viceroy",
+      "name": "Utility Columns",
+      "steamId": "2013476665",
+      "version": null
+    },
+    {
+      "author": "Oskar Potocki,  XeoNovaDan,  Orion,  Kikohi,  Taranchuk,  Sarg Bjornson,  Erdelf",
+      "name": "Vanilla Expanded Framework",
+      "steamId": "2023507013",
+      "version": null
+    },
+    {
+      "author": "Oskar Potocki,  Helixien,  Erin,  Luizi,  ISOREX,  erdelf,  Sarg",
+      "name": "Vanilla Textures Expanded",
+      "steamId": "2016436324",
+      "version": null
+    },
+    {
+      "author": "Oskar Potocki,  Taranchuk,  Chowder",
+      "name": "Vanilla Traits Expanded",
+      "steamId": "2296404655",
+      "version": null
+    },
+    {
+      "author": "emitbreaker",
+      "name": "Void born Xenotype",
+      "steamId": "3264401153",
+      "version": null
+    },
+    {
+      "author": "Anndra",
+      "name": "Warhammer 40,000: Backstories",
+      "steamId": "3574424067",
+      "version": null
+    },
+    {
+      "author": "Anndra",
+      "name": "Warhammer 40,000: Imperium Names",
+      "steamId": "3568001488",
+      "version": null
+    }
+  ]
+}
